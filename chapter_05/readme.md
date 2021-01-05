@@ -100,7 +100,7 @@ print(car == 'audi')
 - 详细研究实际结果,直到你明白了它为何为 True 或 False 。
 - 创建至少 10 个测试,且其中结果分别为 True 和 False 的测试都至少有 5 个。
 
-​	[5-1.py]()
+​	[5-1.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_05/5-1.py)
 
 **5-2 更多的条件测试 :** 你并非只能创建 10 个测试。如果你想尝试做更多的比较,可再编写一些测试,并将它们加入到 conditional_tests.py 中。对于下面列出的各种测试,至少编写一个结果为 True 和 False 的测试。
 
@@ -116,7 +116,7 @@ print(car == 'audi')
 
 - 测试特定的值是否未包含在列表中。
 
-  [5-2.py]()
+  [5-2.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_05/5-2.py)
 
 
 
@@ -191,7 +191,7 @@ print("Your admission cost is $" + str(price) + ".")
 
 - 编写这个程序的两个版本,在一个版本中上述测试通过了,而在另一个版本中未通过(未通过测试时没有输出)。
 
-  [5-3.py]()
+  [5-3.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_05/5-3.py)
 
 **5-4 外星人颜色 #2 :** 像练习 5-3 那样设置外星人的颜色,并编写一个 if-else 结构。
 
@@ -201,7 +201,7 @@ print("Your admission cost is $" + str(price) + ".")
 
 - 编写这个程序的两个版本,在一个版本中执行 if 代码块,而在另一个版本中执行 else 代码块。
 
-  [5-4.py]()
+  [5-4.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_05/5-4.py)
 
 **5-5 外星人颜色 #3 :** 将练习 5-4 中的 if-else 结构改为 if-elif-else 结构。
 
@@ -213,7 +213,7 @@ print("Your admission cost is $" + str(price) + ".")
 
 - 编写这个程序的三个版本,它们分别在外星人为绿色、黄色和红色时打印一条消息。
 
-  [5-5.py]()
+  [5-5.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_05/5-5.py)
 
 **5-6 人生的不同阶段 :** 设置变量 age 的值,再编写一个 if-elif-else 结构,根据 age 的值判断处于人生的哪个阶段。
 
@@ -229,7 +229,7 @@ print("Your admission cost is $" + str(price) + ".")
 
 - 如果一个人的年龄超过 65 (含)岁,就打印一条消息,指出他是老年人。
 
-  [5-6.py]()
+  [5-6.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_05/5-6.py)
 
 **5-7 喜欢的水果 :** 创建一个列表,其中包含你喜欢的水果,再编写一系列独立的 if 语句,检查列表中是否包含特定的水果。
 
@@ -237,7 +237,7 @@ print("Your admission cost is $" + str(price) + ".")
 
 - 编写 5 条 if 语句,每条都检查某种水果是否包含在列表中,如果包含在列表中,就打印一条消息,如 “You really like bananas!” 。
 
-  [5-7.py]()
+  [5-7.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_05/5-7.py)
 
 **5-8 以特殊方式跟管理员打招呼 :** 创建一个至少包含 5 个用户名的列表,且其中一个用户名为 'admin' 。想象你要编写代码,在每位用户登录网站后都打印一条问候消息。遍历用户名列表,并向每位用户打印一条问候消息。
 
@@ -245,7 +245,7 @@ print("Your admission cost is $" + str(price) + ".")
 
 - 否则,打印一条普通的问候消息,如 “Hello Eric, thank you for logging in again” 。
 
-  [5-8.py]()
+  [5-8.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_05/5-8.py)
 
 **5-9 处理没有用户的情形 :** 在为完成练习 5-8 编写的程序中,添加一条 if 语句,检查用户名列表是否为空。
 
@@ -253,7 +253,7 @@ print("Your admission cost is $" + str(price) + ".")
 
 - 删除列表中的所有用户名,确定将打印正确的消息。
 
-  [5-9.py]()
+  [5-9.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_05/5-9.py)
 
 **5-10 检查用户名 :** 按下面的说明编写一个程序,模拟网站确保每位用户的用户名都独一无二的方式。
 
@@ -265,7 +265,7 @@ print("Your admission cost is $" + str(price) + ".")
 
 - 确保比较时不区分大消息;换句话说,如果用户名 'John' 已被使用,应拒绝用户名 'JOHN' 。
 
-  [5-10.py]()
+  [5-10.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_05/5-10.py)
 
 **5-11 序数 :** 序数表示位置,如 1st 和 2nd 。大多数序数都以 th 结尾,只有 1 、 2 和 3 例外。
 
@@ -275,4 +275,7 @@ print("Your admission cost is $" + str(price) + ".")
 
 - 在循环中使用一个 if-elif-else 结构,以打印每个数字对应的序数。输出内容应为 1st 、 2nd 、 3rd 、 4th 、 5th 、 6th 、 7th 、 8th 和 9th ,但每个序数都独占一行。
 
-  [5-11.py]()
+  [5-11.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_05/5-11.py)
+
+
+
