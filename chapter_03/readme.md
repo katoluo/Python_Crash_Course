@@ -84,15 +84,15 @@ print(message)
 
 **3-1 姓名：** 将一些朋友的姓名存储在一个列表中,并将其命名为 names 。依次访问该列表中的每个元素,从而将每个朋友的姓名都打印出来。
 
-​	[names.py]()
+​	[names.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_03/names.py)
 
 **3-2 问候语：** 继续使用练习 3-1 中的列表,但不打印每个朋友的姓名,而为每人打印一条消息。每条消息都包含相同的问候语,但开头为相应朋友的姓名。
 
-​	[greetings.py]()
+​	[greetings.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_03/greetings.py)
 
 **3-3 自己的列表：** 想想你喜欢的通勤方式,如骑摩托车或开汽车,并创建一个包含多种通勤方式的列表。根据该列表打印一系列有关这些通勤方式的宣言,如 “I would like to own a Honda motorcycle” 。
 
-​	[own_list.py]()
+​	[own_list.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_03/own_list.py)
 
 
 
@@ -292,19 +292,19 @@ print(motorcycles)
 
 **3-4 嘉宾名单：** 
 
-​	[guest_list.py]()
+​	[guest_list.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_03/guest_list.py)
 
 **3-5 修改嘉宾名单：** 
 
-​	[change_list.py]()
+​	[change_list.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_03/change_list.py)
 
 **3-6 添加嘉宾：**
 
-​	[add_guest.py]()
+​	[add_guest.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_03/add_guest.py)
 
 **3-7 缩减名单：** 
 
-​	[del_list.py]()
+​	[del_list.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_03/del_list.py)
 
 
 
@@ -421,15 +421,15 @@ print(cars)
 
 **3-8 放眼世界：** 
 
-​	[3-8.py]()
+​	[3-8.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_03/3-8.py)
 
 **3-9 晚餐嘉宾：**
 
-​	[3-9.py]()
+​	[3-9.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_03/3-9.py)
 
 **3-10 尝试使用各个函数：** 
 
-​	[3-10.py]()
+​	[3-10.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_03/3-10.py)
 
 
 
