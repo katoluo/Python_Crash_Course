@@ -138,11 +138,11 @@ print("Sarah's favorite language is " +
 
 **6-1 人：** 使用一个字典来存储一个熟人的信息,包括名、姓、年龄和居住的城市。该字典应包含键 first_name 、 last_name 、 age 和 city 。将存储在该字典中的每项信息都打印出来。
 
-​	[6-1.py]()
+​		[6-1.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_06/6-1.py)
 
 **6-2 喜欢的数字：** 使用一个字典来存储一些人喜欢的数字。请想出 5 个人的名字,并将这些名字用作字典中的键;想出每个人喜欢的一个数字,并将这些数字作为值存储在字典中。打印每个人的名字和喜欢的数字。为让这个程序更有趣,通过询问朋友确保数据是真实的。
 
-​	[6-2.py]()
+​		[6-2.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_06/6-2.py)
 
 **6-3 词汇表 :** Python 字典可用于模拟现实生活中的字典,但为避免混淆,我们将后者称为词汇表。
 
@@ -150,7 +150,7 @@ print("Sarah's favorite language is " +
 
 - 以整洁的方式打印每个词汇及其含义。为此,你可以先打印词汇,在它后面加上一个冒号,再打印词汇的含义;也可在一行打印词汇,再使用换行符( \n )插入一个空行,然后在下一行以缩进的方式打印词汇的含义。
 
-  [6-3.py]()
+  [6-3.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_06/6-3.py)
 
 ***
 
@@ -292,7 +292,7 @@ Ruby
 
 **6-4 词汇表 2 :** 既然你知道了如何遍历字典,现在请整理你为完成练习 6-3 而编写的代码,将其中的一系列 print 语句替换为一个遍历字典中的键和值的循环。确定该循环正确无误后,再在词汇表中添加 5 个 Python 术语。当你再次运行这个程序时,这些新术语及其含义将自动包含在输出中。
 
-​	[6-4.py]()
+​	[6-4.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_06/6-4.py)
 
 **6-5 河流 :** 创建一个字典,在其中存储三条大河流及其流经的国家。其中一个键 — 值对可能是 'nile': 'egypt' 。
 
@@ -302,7 +302,7 @@ Ruby
 
 - 使用循环将该字典包含的每个国家的名字都打印出来。
 
-  [6-5.py]()
+  [6-5.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_06/6-5.py)
 
 **6-6 调查：** 在 6.3.1 节编写的程序 favorite_languages.py 中执行以下操作。
 
@@ -310,7 +310,7 @@ Ruby
 
 - 遍历这个人员名单,对于已参与调查的人,打印一条消息表示感谢。对于还未参与调查的人,打印一条消息邀请他参与调查。
 
-  [6-6.py]()
+  [6-6.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_06/6-6.py)
 
 ***
 
@@ -466,24 +466,27 @@ Username: mcurie
 
 **6-7 人 :** 在为完成练习 6-1 而编写的程序中,再创建两个表示人的字典,然后将这三个字典都存储在一个名为 people 的列表中。遍历这个列表,将其中每个人的所有信息都打印出来。
 
-​	[6-7.py]()
+​	[6-7.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_06/6-7.py)
 
 **6-8 宠物 :** 创建多个字典,对于每个字典,都使用一个宠物的名称来给它命名;在每个字典中,包含宠物的类型及其主人的名字。将这些字典存储在一个名为 pets的列表中,再遍历该列表,并将宠物的所有信息都打印出来。
 
-​	[6-8.py]()
+​	[6-8.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_06/6-8.py)
 
 **6-9 喜欢的地方 :** 创建一个名为 favorite_places 的字典。在这个字典中,将三个人的名字用作键;对于其中的每个人,都存储他喜欢的 1~3 个地方。为让这个练习更有趣些,可让一些朋友指出他们喜欢的几个地方。遍历这个字典,并将其中每个人的名字及其喜欢的地方打印出来。
 
-​	[6-9.py]()
+​	[6-9.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_06/6-9.py)
 
 **6-10 喜欢的数字 :** 修改为完成练习 6-2 而编写的程序,让每个人都可以有多个喜欢的数字,然后将每个人的名字及其喜欢的数字打印出来。
 
-​	[6-10.py]()
+​	[6-10.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_06/6-10.py)
 
 **6-11 城市 :** 创建一个名为 cities 的字典,其中将三个城市名用作键;对于每座城市,都创建一个字典,并在其中包含该城市所属的国家、人口约数以及一个有关该城市的事实。在表示每座城市的字典中,应包含 country 、 population 和 fact 等键。将每座城市的名字以及有关它们的信息都打印出来。
 
-​	[6-11.py]()
+​	[6-11.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_06/6-11.py)
 
 **6-12 扩展 :** 本章的示例足够复杂,可以以很多方式进行扩展了。请对本章的一个示例进行扩展:添加键和值、调整程序要解决的问题或改进输出的格式。
 
-​	[6-12.py]()
+​	[6-12.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_06/6-12.py)
+
+
+
