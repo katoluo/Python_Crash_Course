@@ -172,7 +172,7 @@ print(len(pi_string))
 
 **10-1 Python 学习笔记 :** 
 
-​	[10-1.py]()
+​	[10-1.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_10/10-1.py)
 
 **10-2 C 语言学习笔记 :** 可使用方法 replace() 将字符串中的特定单词都替换为另一个单词。下面是一个简单的示例,演示了如何将句子中的 'dog' 替换为 'cat'
 
@@ -184,7 +184,7 @@ print(len(pi_string))
 
 读取你刚创建的文件 learning_python.txt 中的每一行,将其中的 Python 都替换为另一门语言的名称,如 C 。将修改后的各行都打印到屏幕上。
 
-​	[10-2.py]()
+​	[10-2.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_10/10-2.py)
 
 ***
 
@@ -233,15 +233,15 @@ I love programming.
 
 **10-3 访客 :** 编写一个程序,提示用户输入其名字;用户作出响应后,将其名字写入到文件 guest.txt 中。
 
-​	[10-3.py]()
+​	[10-3.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_10/10-3.py)
 
 **10-4 访客名单 :** 编写一个 while 循环,提示用户输入其名字。用户输入其名字后,在屏幕上打印一句问候语,并将一条访问记录添加到文件 guest_book.txt 中。确保这个文件中的每条记录都独占一行。
 
-​	[10-4.py]()
+​	[10-4.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_10/10-4.py)
 
 **10-5 关于编程的调查 :** 编写一个 while 循环,询问用户为何喜欢编程。每当用户输入一个原因后,都将其添加到一个存储所有原因的文件中。
 
-​	[10-5.py]()
+​	[10-5.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_10/10-5.py)
 
 ***
 
@@ -451,19 +451,19 @@ for filename in filenames:
 
 **10-6 加法运算 :** 提示用户提供数值输入时,常出现的一个问题是,用户提供的是文本而不是数字。在这种情况下,当你尝试将输入转换为整数时,将引发 TypeError 异常。编写一个程序,提示用户输入两个数字,再将它们相加并打印结果。在用户输入的任何一个值不是数字时都捕获 TypeError 异常,并打印一条友好的错误消息。对你编写的程序进行测试:先输入两个数字,再输入一些文本而不是数字。
 
-​	[10-6.py]()
+​	[10-6.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_10/10-6.py)
 
 **10-7 加法计算器 :** 将你为完成练习 10-6 而编写的代码放在一个 while 循环中,让用户犯错(输入的是文本而不是数字)后能够继续输入数字。
 
-​	[10-7.py]()
+​	[10-7.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_10/10-7.py)
 
 **10-8 猫和狗 :** 创建两个文件 cats.txt 和 dogs.txt ,在第一个文件中至少存储三只猫的名字,在第二个文件中至少存储三条狗的名字。编写一个程序,尝试读取这些文件,并将其内容打印到屏幕上。将这些代码放在一个 try-except 代码块中,以便在文件不存在时捕获 FileNotFound 错误,并打印一条友好的消息。将其中一个文件移到另一个地方,并确认 except 代码块中的代码将正确地执行。
 
-​	[10-8.py]()
+​	[10-8.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_10/10-8.py)
 
 **10-9 沉默的猫和狗 :** 修改你在练习 10-8 中编写的 except 代码块,让程序在文件不存在时一言不发。
 
-​	[10-9.py]()
+​	[10-9.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_10/10-9.py)
 
 ***
 
@@ -573,17 +573,17 @@ greet_user()
 
 **10-11 喜欢的数字 :** 编写一个程序,提示用户输入他喜欢的数字,并使用 json.dump() 将这个数字存储到文件中。再编写一个程序,从文件中读取这个值,并打印消息 “I know your favorite number! It's _____.” 。
 
-​	[10-11.py]()
+​	[10-11.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_10/10-11.py)
 
 **10-12 记住喜欢的数字 :** 将练习 10-11 中的两个程序合而为一。如果存储了用户喜欢的数字,就向用户显示它,否则提示用户输入他喜欢的数字并将其存储到文件中。运行这个程序两次,看看它是否像预期的那样工作。
 
-​	[10-12.py]()
+​	[10-12.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_10/10-12.py)
 
 **10-13 验证用户 :** 最后一个 remember_me.py 版本假设用户要么已输入其用户名,要么是首次运行该程序。我们应修改这个程序,以应对这样的情形:当前和最后一次运行该程序的用户并非同一个人。
 
 为此,在 greet_user() 中打印欢迎用户回来的消息前,先询问他用户名是否是对的。如果不对,就调用 get_new_username() 让用户输入正确的用户名。
 
-​	[10-13.py]()
+​	[10-13.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_10/10-13.py)
 
 ***
 
