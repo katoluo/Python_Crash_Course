@@ -128,7 +128,9 @@ def get_formatted_name(first, middle, last):
 
 创建一个名为 test_cities.py 的程序,对刚编写的函数进行测试(别忘了,你需要导入模块 unittest 以及要测试的函数)。编写一个名为 test_city_country() 的方法,核实使用类似于 'santiago' 和 'chile' 这样的值来调用前述函数时,得到的字符串是正确的。运行 test_cities.py ,确认测试 test_city_country() 通过了。
 
-​	[11-1.py]()
+​	[city_functions.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_11/city_functions.py)
+
+https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_11/test_cities.py	[tess_cities.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_11/test_cities.py)
 
 **11-2 人口数量 :** 修改前面的函数,使其包含第三个必不可少的形参 population ,并返回一个格式为 City, Country - population xxx 的字符串,如 Santiago, Chile - population 5000000 。运行 test_cities.py ,确认测试 test_city_country() 未通过。
 
@@ -351,9 +353,9 @@ unittest.main()
 
 为 Employee 编写一个测试用例,其中包含两个测试方法: test_give_default_raise() 和 test_give_custom_raise() 。使用方法 setUp() ,以免在每个测试方法中都创建新的雇员实例。运行这个测试用例,确认两个测试都通过了。
 
-​	[employee.py]()
+​	[employee.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_11/employee.py)
 
-​	[test_employee.py]()
+​	[test_employee.py](https://github.com/katoluo/Python_Crash_Course/blob/master/chapter_11/test_employee.py)
 
 ***
 
